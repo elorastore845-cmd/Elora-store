@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Cairo', sans-serif;
+background-color: #fdf8f0;
+color: #4a2c2a;
+line-height: 1.6;
+text-align: center;
+}
+header {
+background-color: #4a2c2a;
+color: #fdf8f0;
+padding: 20px;
+}
+header h1 {
+font-size: 32px;
+font-weight: 700;
+letter-spacing: 2px;
+margin-bottom: 10px;
+}
+nav a {
+color: #e6ccb2;
+text-decoration: none;
+margin: 0 15px;
+font-size: 18px;
+transition: 0.3s;
+}
+nav a:hover {
+color: #ffffff;
+border-bottom: 2px solid #b08968;
+}
+main {
+max-width: 500px;
+margin: 40px auto;
+background-color: #ffffff;
+padding: 30px;
+border-radius: 12px;
+border: 1px solid #e6ccb2;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+text-align: center;
+}
+main h2 {
+font-size: 26px;
+font-weight: 700;
+margin-bottom: 15px;
+text-align: center;
+width: 100%;
+}
+/* هذا هو الوصف - صغرناه لك */
+main p {
+text-align: center;
+font-size: 15px;
+line-height: 1.8;
+color: #6b4a3a;
+}
+form label {
+display: block;
+text-align: right;
+font-weight: 700;
+margin-bottom: 5px;
+}
+form input {
+width: 100%;
+padding: 12px;
+border: 1px solid #e6ccb2;
+border-radius: 8px;
+background-color: #fdf8f0;
+font-family: 'Cairo', sans-serif;
+font-size: 15px;
+outline: none;
+margin-bottom: 15px;
+}
+form input:focus {
+border-color: #b08968;
+background-color: #ffffff;
+}
+button {
+width: 100%;
+padding: 12px;
+background-color: #b08968;
+color: white;
+border: none;
+border-radius: 8px;
+font-family: 'Cairo', sans-serif;
+font-size: 17px;
+font-weight: 700;
+cursor: pointer;
+margin-top: 10px;
+}
+button:hover {
+background-color: #4a2c2a;
+}
+footer {
+background-color: #4a2c2a;
+color: #e6ccb2;
+padding: 15px;
+margin-top: 40px;
+font-size: 14px;
+}
