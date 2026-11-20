@@ -101,3 +101,14 @@ padding: 15px;
 margin-top: 40px;
 font-size: 14px;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+nav a {
+  font-size: 13px;
+  white-space: nowrap;
+}
